@@ -62,7 +62,7 @@ def search(query):
     return results[int(i)]
 
 
-# print(search(query)[1])
+
 
 def magnet(url):
     r = requests.get('https://1337x.to'+url, headers=headers)
