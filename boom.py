@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
-
+# fucki
 headers = {
     # ':authority': '1337x.to',
     # ':method': 'GET',
