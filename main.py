@@ -24,7 +24,7 @@ pyperclip.copy(mag)
 
 print(title+'\n')
 
-conti = input('Proceed to find subtitles? ')
+input('Proceed to find subtitles? ')
 filters = re.split('\.| |_|-', title)
 query = len(srch.split(' '))
 query -= 1
@@ -35,6 +35,14 @@ while query!=-1:
 filters = list(filter(None, filters))
 
 print(filters)
+
+removeIndex = input('remove any??: ')
+
+for i in removeIndex:
+    filters.remove(i)
+
+print(filters)
+
 execute(srch, opt, filters)
 
 p = subprocess.Popen('protonvpn-cli d', stdout=subprocess.PIPE, shell=True)

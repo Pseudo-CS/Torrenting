@@ -3,9 +3,13 @@ from bs4 import BeautifulSoup
 from pathlib import Path
 from tqdm import tqdm
 
-# search = sys.argv[1]
-# option = sys.argv[2]
-# fil = sys.argv[3]
+print('arguments order: srch, type, filters')
+try:
+    search = sys.argv[1]
+    option = sys.argv[2]
+    fil = sys.argv[3]
+except:
+    print('no user input received')
 
 headers = {
     'Host' : 'subscene.com',
@@ -162,4 +166,4 @@ def download(link):
 
 
 
-# execute(search, option, fil)
+execute(search, option, fil)
