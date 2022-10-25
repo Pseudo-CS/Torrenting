@@ -1,15 +1,10 @@
-import requests, re, sys, subprocess, time
+import requests, sys, subprocess
 from bs4 import BeautifulSoup
 from pathlib import Path
 from tqdm import tqdm
 
-print('arguments order: srch, type, filters')
-try:
-    search = sys.argv[1]
-    option = sys.argv[2]
-    fil = sys.argv[3]
-except:
-    print('no user input received')
+
+
 
 headers = {
     'Host' : 'subscene.com',
@@ -166,4 +161,12 @@ def download(link):
 
 
 
-execute(search, option, fil)
+print('arguments order: srch, type, filters')
+try:
+    search = sys.argv[1]
+    option = sys.argv[2]
+    fil = sys.argv[3]
+    execute(search, option, fil)
+
+except:
+    print('no user input received')
