@@ -21,7 +21,7 @@ headers = {
     'upgrade-insecure-requests': '1',
     'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36'
                   'Safari/537.36',
-    'cookie': 'cf_clearance=ZOyVSyurTg.xVXaDpbJsZGJqcZRCOQeqMKKRg65xAf8-1654519231-0-250; __cf_bm=TbWS1guCxB3wbtAO24uc3fPM6S.XSTOHXc0qJl9ej2g-1655096422-0-AYAMxCUpHjyFCrC+eSOwKoWWxWrqpfsWKc2F0NknTkR9JDqWRoH27I0XoUU9crM/CpSR2CuhjQz/N75WYt+Q71PbfEmJxwRiTLjcblG8ioOpzZsv/DeapKDyJj0vYAclQQ==',
+    'cookie': '',
     'referer': 'https://subscene.com/',
     'origin': 'https://subscene.com'
 }
