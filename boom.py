@@ -10,7 +10,7 @@ headers = {
     # 'accept-encoding' : 'gzip, deflate, br',
     'accept-language' : 'en-GB;q=0.7',
     # 'cache-control' : 'max-age=0',
-    'cookie' : '__cf_bm=C3AofcOuck3Yz.LUMvDGBTrGth1xvJ2h2hTZr7TesNI-1655131678-0-AXdea+1LUFBjeQCRpI2OAI5fmF63PonKHn9DrAQ4A5TBoHjxK94UhFSWEvgorjKQrhHyZIyyu7Jx7dgx57I5Qnter4yR1A6u3YqN0/Bqs9ZCKrTrXePtsXUUOyFKeCJXgA==',
+    'cookie' : '',
     # 'referer' : 'https://1337x.to/',
     'Sec-Fetch-Dest' : 'document',
     'Sec-Fetch-Mode' : 'navigate',
